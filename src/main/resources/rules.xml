@@ -1,0 +1,15 @@
+<rules>
+	<depth value="2"></depth> <!-- 深度 -->
+	<disallow>
+		<rule type="equal" regular="[a-zA-Z]+"></rule>
+		<rule type="unequal" regular="[a-zA-Z]+"></rule>
+		<rule type="match" regular="[a-zA-Z]+"></rule>
+		<rule type="unmatch" regular="[a-zA-Z]+"></rule>
+	</disallow>
+	<allow>
+		<rule type="equal" regular="[a-zA-Z]+"></rule>
+		<rule type="unequal" regular="[a-zA-Z]+"></rule>
+		<rule type="match" regular="[a-zA-Z]+"></rule>
+		<rule type="unmatch" regular="[a-zA-Z]+"></rule>
+	</allow>
+</rules>
